@@ -1,0 +1,13 @@
+CRUD: CREATE READ UPDATE DELETE
+
+files, folders
+
+touch <filename>        <<<<-- creates a new file
+ls                      <<<< lists all files present in a folder
+pwd                     <<<< tell me where i am in my computer
+cat <filename>          <<<< displays file content
+mkdir <foldername>      <<<< creates a new folder
+mv <currentfilename> <newdesiredpath>   <<<< rename a file or move to another place
+cd <path>               <<<< enter a new directory on the command line
+    cd ..               <<<< goes back 1 level on the path
+    cd <absolutepath>   <<<< goes to absolutepath
