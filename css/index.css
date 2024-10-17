@@ -1,0 +1,56 @@
+h3 {
+    color: brown;
+}
+
+#title {
+    color: red;
+}
+
+p {
+    color: green
+}
+
+.formula {
+    color: blue;
+    border-style: double;
+    border-width: 5px;
+    border-color: green;
+    padding: 10px;
+    /* margin: 10px; */
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+#h2o {
+    font-size: 30px;
+}
+
+p > span {
+    font-size: 30px;
+}
+
+body {
+    background-color: yellow;
+    /* background-image: url('images/contact.jpeg'); */
+}
+
+.mybox {
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    display: inline-block;
+}
+
+#bluebox {
+    background-color: blue;
+}
+
+#whitebox {
+    background-color: white;
+}
+
+#redbox {
+    background-color: red;
+}
