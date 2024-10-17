@@ -1,0 +1,13 @@
+git init        <<<<< creates a new git repository
+git status      <<<<< what is the state of git
+git add <filename>  <<<<<< add a file to a box (staging)
+git commit -m '<message>' <<<<< close the box and add a message
+git remote add origin <url>    <<<< adding remote site
+
+
+1. create a box
+2. add files in the box
+3. seal the box and add a message
+4. push the box to remote 
+
+5. pull the box from remote
