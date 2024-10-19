@@ -3,7 +3,8 @@ git status      <<<<< what is the state of git
 git add <filename>  <<<<<< add a file to a box (staging)
 git commit -m '<message>' <<<<< close the box and add a message
 git remote add origin <url>    <<<< adding remote site
-
+git push origin main
+git pull origin main
 
 1. create a box
 2. add files in the box
