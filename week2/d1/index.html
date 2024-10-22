@@ -4,8 +4,11 @@
         <style>
             .flexcontainer {
                 background-color: aqua;
-                display: flex;
-                flex-direction: row;
+                display: flex; /* <<<<<< Most important line */
+                flex-direction: column;  
+                justify-content: space-around; /* aligns on the MAIN AXIS i.e. top - bottom */
+                align-items: flex-start; /* aligns items on the CROSS AXIS i.e. left - right */
+                height: 500px;
             }
 
             div {
