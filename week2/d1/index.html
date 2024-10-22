@@ -4,11 +4,12 @@
         <style>
             .flexcontainer {
                 background-color: aqua;
+                height: 500px;
+
                 display: flex; /* <<<<<< Most important line */
-                flex-direction: column;  
+                flex-direction: row;  
                 justify-content: space-around; /* aligns on the MAIN AXIS i.e. top - bottom */
                 align-items: flex-start; /* aligns items on the CROSS AXIS i.e. left - right */
-                height: 500px;
             }
 
             div {
@@ -17,9 +18,24 @@
             }
 
             div.item {
-                width: 100px;
+                /* width: 100px; */
                 height: 100px;
+                order: 4;
             }
+
+            #b1 {
+                flex: 1;
+            }
+
+            #b2 {
+                flex: 2;
+            }
+
+            #b3 {
+                flex: 2;
+            }
+
+            
         </style>
     </head>
     <body>
@@ -27,6 +43,9 @@
             <div class="item" id="b1" style="background-color: bisque;">ChatGPT: box 1</div>
             <div class="item" id="b2" style="background-color: red;">Nayar: box 2</div>
             <div class="item" id="b3" style="background-color: blueviolet;">Login: box 3</div>
+            <div class="item" id="b4" style="background-color: blueviolet;">Login: box 4</div>
+            <div class="item" id="b5" style="background-color: blueviolet;">Login: box 5</div>
+
         </div>
     </body>
 
