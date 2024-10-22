@@ -9,30 +9,30 @@
 
             #gridcontainer{
                 display: grid;
-                grid-template-columns: 1fr 2fr 1fr;
+                grid-template-columns: 1fr 2fr;
                 grid-template-rows: repeat(3, 2fr);
                 column-gap: 10px;
                 row-gap: 20px;
-            }
-
-            #specialdiv {
-                grid-row: 3;
-                grid-column: 2;
+                grid-template-areas: 
+                   'logo  login'
+                   'sidebar content'
+                   'footer copyright';
             }
 
             #logo {
-                grid-row: 1;
-               grid-column: 1;
+               grid-area: logo;
             }
 
             #login {
-                grid-row: 1 / span 2;
-                grid-column: 3;
+                grid-area: login;
             }
 
             #content {
-                grid-row: 2;
-                grid-column: 2;
+                grid-area: content;
+            }
+
+            #specialdiv {
+                grid-area: footer;
             }
         </style>
     </head>
