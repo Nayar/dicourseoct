@@ -5,6 +5,8 @@ git commit -m '<message>' <<<<< close the box and add a message
 git remote add origin <url>    <<<< adding remote site
 git push origin main
 git pull origin main
+git checkout -b <branchname>  <<<<< create a new branch
+git checkout <branchname>   <<<<< switch to a branch
 
 1. create a box
 2. add files in the box
@@ -12,3 +14,13 @@ git pull origin main
 4. push the box to remote 
 
 5. pull the box from remote
+
+
+branches:
+main     <<<<< only working codes. this is the code which is going on servers
+
+
+TASKS:
+- make background yellow
+- Change title to developers institute
+- remove accordion
