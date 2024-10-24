@@ -7,16 +7,47 @@
     </head>
     <body>
         <div class="container" style="background-color: bisque;">
+            
+
             <h1>Welcome to bootstrap class</h1>
-            <h2>Today we'll learn how to use bootstrap</h2>
-            <p>Enter your information to learn</p>
-            <form>
-                <label for="name">Name:</label>
-                <input type="text" placeholder="Enter your name"><br/>
-                <label for="age">Age:</label>
-                <input type="number" placeholder="Enter your age"><br/>
-                <input type="submit" value="Submit">
-            </form>
+            <div class="row">
+                <div class="col-4">
+                    <h2>Today we'll learn how to use bootstrap</h2>
+                    <p>Enter your information to learn</p>
+                </div>
+                <div class="col-8">
+                    <form>
+                        <label for="name">Name:</label>
+                        <input type="text" placeholder="Enter your name"><br/>
+                        <label for="age">Age:</label>
+                        <input type="number" placeholder="Enter your age"><br/>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+            <div class="row"> <!-- The sum of cols inside of a row, should be 12 -->
+                <div class="col-6" style="background-color: aquamarine;">This is my first col</div>
+                <div class="col-6" style="background-color: aliceblue;">This is my second col</div>
+            </div>
+            <div class="row"><!-- X + Y = 12-->
+                <div class="col-4" style="background-color: blue;">Row 2, col 1: 40%</div>
+                <div class="col-8" style="background-color: red;">Row 2, col 2: 60%</div>
+            </div>
+            <div class="row"><!-- X + Y = 12-->
+                <div class="col-1" style="background-color: blue;">Row 2, col 1: 40%</div>
+                <div class="col-1" style="background-color: red;">Row 2, col 2: 60%</div>
+                <div class="col-1" style="background-color: green;">Row 2, col 2: 60%</div>
+                <div class="col-1" style="background-color: blue;">Row 2, col 1: 40%</div>
+                <div class="col-1" style="background-color: red;">Row 2, col 2: 60%</div>
+                <div class="col-1" style="background-color: green;">Row 2, col 2: 60%</div>
+                <div class="col-1" style="background-color: blue;">Row 2, col 1: 40%</div>
+                <div class="col-1" style="background-color: red;">Row 2, col 2: 60%</div>
+                <div class="col-1" style="background-color: green;">Row 2, col 2: 60%</div>
+                <div class="col-1" style="background-color: blue;">Row 2, col 1: 40%</div>
+                <div class="col-1" style="background-color: red;">Row 2, col 2: 60%</div>
+                <div class="col-1" style="background-color: green;">Row 2, col 2: 60%</div>
+
+            </div>
         </div>
     </body>
 </html>
